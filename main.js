@@ -246,7 +246,7 @@ class freeapiservice {
     //now we will inject the httpt client using thr constuctor
     constructor(httpclient) {
         this.httpclient = httpclient;
-        this.url = "http://169.55.163.41:3000"; //DRY principle
+        this.url = "https://bribchat.com:44369"; //DRY principle
     }
     ;
     getallitems() {
